@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.Calculator.Wee-Ally", "Console.Calculator.Wee-Ally\Console.Calculator.Wee-Ally.csproj", "{BB27323C-611A-4122-B066-D5533960E72C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB27323C-611A-4122-B066-D5533960E72C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB27323C-611A-4122-B066-D5533960E72C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB27323C-611A-4122-B066-D5533960E72C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB27323C-611A-4122-B066-D5533960E72C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C338022-DC14-4507-B7C4-89037F524AAA}
+	EndGlobalSection
+EndGlobal
