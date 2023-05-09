@@ -1,6 +1,6 @@
 ﻿class Program
 {
-    static void Main(string[] args)
+    private static void Main()
     {
         var endApp = false;
 
@@ -13,7 +13,6 @@
             var numInput1 = Console.ReadLine();
 
             double cleanNum1 = 0;
-
             while (!double.TryParse(numInput1, out cleanNum1))
             {
                 Console.Write("This is not a valid input. Please enter");
@@ -23,9 +22,7 @@
             Console.Write("Type another number, then press Enter: ");
             var numInput2 = Console.ReadLine();
 
-            double cleanNum2 = 0;
-
-            while (!double.TryParse(numInput2, out cleanNum2))
+            while (!double.TryParse(numInput2, out _))
             {
                 Console.Write("This is not a valid input. Please enter");
                 numInput2 = Console.ReadLine();
@@ -60,7 +57,6 @@
             Console.WriteLine("Press 'x' to exit, otherwise press any key to keep playing");
             if (Console.ReadLine() == "x") endApp = true;
         }
-        return;
     }
 }
 
